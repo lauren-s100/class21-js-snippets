@@ -5,10 +5,10 @@
     "body": [ "$(\"${1:TODO: CSS selector}\").on(\"click\", function() { // ← click event\n\n  // ↓ action snippets ↓\n  ${2:TODO: action snippet(s)}\n  // ↑ action snippets ↑\n\n}); // ← click event\n\n$0" ],
     "description": "Snippet: on click element event"
   },
-  "eventOnPageLoaded": {
-    "prefix": "event: page load",
-    "body": [ "$(document).ready(function() { // ← page load event\n\n  // ↓ action snippets ↓\n  ${1:TODO: action snippet(s)}\n  // ↑ action snippets ↑\n\n}); // ← page load event\n\n$0" ],
-    "description": "Snippet: on page load event"
+  "eventOnPageReady": {
+    "prefix": "event: page ready",
+    "body": [ "$(document).ready(function() { // ← page ready event\n\n  // ↓ action snippets ↓\n  ${1:TODO: action snippet(s)}\n  // ↑ action snippets ↑\n\n}); // ← page ready event\n\n$0" ],
+    "description": "Snippet: on page ready event"
   },
   "eventOnWindowResize": {
     "prefix": "event: resize browser window",
@@ -28,7 +28,7 @@
     "description": "Snippet: remove a CSS class from an element"
   },
   "actionMediaQuery": {
-    "prefix": "action: get browser width",
+    "prefix": "action: browser narrow or wide",
     "body": [ "if (window.matchMedia(\"(max-width: ${1:TODO: browser width})\").matches) { // ← get browser width\n\n  // ↓ action snippets (< width) ↓\n  ${2:TODO: action snippet(s)}\n  // ↑ action snippets (< width) ↑\n\n} else { // ← get browser width\n\n  // ↓ action snippets (> width) ↓\n  ${3:TODO: action snippet(s)}\n  // ↑ action snippets (> width) ↑\n\n} // ← get browser width\n$0" ],
     "description": "javascript for media query inside event snippet"
   },
